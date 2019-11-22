@@ -38,9 +38,9 @@ def parse_lists(group, file):
     Parses lists
     ________
 
-    group: (str) the group type, like SMTS
-    file: (str) name of the file to read data from
-    
+    group: (str) the group type
+    file: (str) name of the file 
+
     """
 
     metadata_header = None
