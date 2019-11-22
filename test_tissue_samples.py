@@ -3,6 +3,7 @@ import random
 import os
 import get_gene_counts
 
+
 class Test_Gene_Counts(unitest.testcase):
 
     def test_linear_search(self):

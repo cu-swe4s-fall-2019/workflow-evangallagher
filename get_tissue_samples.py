@@ -4,6 +4,7 @@ import gzip
 import argparse
 
 
+
 def args_parse():
 
     parser = argparse.ArgumentParser(description="parameters")
@@ -39,7 +40,7 @@ def parse_lists(group, file):
     ________
 
     group: (str) the group type
-    file: (str) name of the file 
+    file: (str) name of the file
 
     """
 
