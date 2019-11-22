@@ -41,9 +41,8 @@ def gene_counts(gene_name, output_file, data):
     gene_name: (str) gene to search for
 
     output_file: (str) name of the gene_counts output file
-    
-    data: (str) name of the file to read data from
 
+    data: (str) name of the file to read data from
     """
 
     output = open(output_file, 'w')
